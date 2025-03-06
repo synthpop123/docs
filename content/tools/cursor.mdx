@@ -1,0 +1,33 @@
+---
+title: Cursor
+description: 'AI Code Editor'
+icon: 'pen-to-square'
+---
+
+### Git commit Message Generator Shortcut
+
+1. Open Cursor's command palette, search for **"Open Keyboard Shortcuts (JSON)"**;
+2. Add the following to the JSON file:
+
+```json keybindings.json
+[  
+  {
+    "key": "cmd+g cmd+g",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+      "workbench.action.files.save",
+      "git.stageAll",
+      "cursor.generateGitCommitMessage",
+      // "git.commit",
+      // "git.push",
+      "workbench.scm.history.focus"
+      ]
+    }
+  }
+]
+```
+
+3. Save the file and all done.
+
+4. When using VS Code with GitHub Copilot extension, you can replace `cursor.generateGitCommitMessage` with `github.copilot.git.generateCommitMessage`.
