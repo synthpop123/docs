@@ -8,37 +8,23 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "background": {
+    "decoration": "windows"
+  },
+  "favicon": "/favicon.ico",
   "navigation": {
     "groups": [
-      {
-        "group": "About",
-        "pages": [
-          "content/about/index"
-        ]
-      },
       {
         "group": "Tools",
         "pages": [
           "content/tools/cursor"
         ]
-      },
-      {
-        "group": "Essentials",
-        "pages": [
-          "essentials/markdown",
-          "essentials/code",
-          "essentials/images",
-          "essentials/settings",
-          "essentials/navigation",
-          "essentials/reusable-snippets"
-        ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/logo.svg",
+    "dark": "/logo/logo.svg"
   },
   "navbar": {
     "links": [
