@@ -27,18 +27,37 @@
       "family": "Plus Jakarta Sans"
     }
   },
-  "​appearance": {
+  " ": {
     "default": "light"
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "AI Chats",
+        "tab": "AI 影评",
         "groups": [
           {
-            "group": "杂七杂八",
+            "group": "亚洲电影",
             "pages": [
-              "ai-chats/film-reviews"
+              "ai-chats/film-reviews/asian-cinema/1990"
+            ]
+          },
+          {
+            "group": "美国电影",
+            "pages": [
+              "ai-chats/film-reviews/american-cinema/2020",
+              "ai-chats/film-reviews/american-cinema/1990"
+            ]
+          },
+          {
+            "group": "欧洲电影",
+            "pages": [
+              "ai-chats/film-reviews/european-cinema/1980"
+            ]
+          },
+          {
+            "group": "世界电影",
+            "pages": [
+              "ai-chats/film-reviews/world-cinema/2000"
             ]
           }
         ]
