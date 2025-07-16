@@ -1,59 +1,49 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "lkw123's Docs",
+  "description": "Casual notes on things I'm interested in",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "thumbnails": {
+    "appearance": "light"
+  },
+  "background": {
+    "decoration": "windows"
+  },
+  "styling": {
+    "eyebrows": "section",
+    "codeblocks": "system"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Space Grotesk"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans"
+    }
+  },
+  "​appearance": {
+    "default": "light"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "AI Chats",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "杂七杂八",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "ai-chats/film-reviews"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -62,21 +52,34 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Homepage",
+        "href": "https://lkwplus.com"
+      },
+      {
+        "label": "Blog",
+        "href": "https://blog.lkwplus.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Contact",
+      "href": "mailto:hi@lkwplus.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://lkwplus.com",
+      "x": "https://x.com/whoamamamiii",
+      "github": "https://github.com/synthpop123",
+      "telegram": "https://t.me/lkwtg"
     }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "perplexity"
+    ]
   }
 }
